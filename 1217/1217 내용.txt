@@ -1,0 +1,206 @@
+<head>
+    <title>HTML5 Basic Page</title>  <= 탭 부분 이름
+</head>
+
+<body>
+내용 입력 ""필요 없음
+</body>
+
+<!-- --> <= 주석
+
+제목
+
+글자 태그
+<h1>글자글자</h1>
+
+h1 ~ 등 많음
+1이 가장 크고 5가 작음
+4, 5가 가장 많이 쓰인다고 함
+글자태그 스타일을 수정 가능하다 함
+
+
+본문
+본문 태그
+<p>내용내용</p>
+
+단락 단위임
+p는 oaragraph을 의미
+
+<br> 로 개행문자 사용
+<hr> 로 수평을 나눔(그냥 표 나눔이라 생각하면 비슷은 아니지만 .....?)
+
+앵커태그
+<a 속성> 글자</a>
+
+어딘가로 이동을 시켜줌
+하이퍼 링크라 생각하면 비슷!
+속성 href="URL" 쓰면 하이퍼 링크 달아줌
+URL에 #만 들어 있으면 아직 정해지진 않았지만 뭔가 들어갈 예정입니다 라는 뜻
+URL에 #ID값 이면 해당 ID로 이동하는 링크다. ID는 #들어가면 안됨!
+URL에 파일 이름 넣으면 해당 파일을 띄워줌 폴어 구분은 \
+
+글자 형태
+<b>굵은 글씨</b>
+<i>기울어진 글씨</i>
+<small>좀 작은거(설명문 같은거 넣을때)</small>
+<sub>아래로 붙는 글씨(로그 밑 같은거)</sub>
+<sup>위로 붙는 글씨(지수 같은거)</sup>
+<ins>밑줄</ins>
+<del>가운대줄</del>
+
+목록 태그
+
+<ol>순서가 있는 목록 태그</ol>
+<ul>순서 없는 목록 태그</ul>
+<li>목록</li>
+
+1.~~~
+2.~~` <=순서 있는
+
+* ~~~
+* ~~ <= 순서 없는
+각각 하나가 목록
+
+중첩 가능
+
+태이블 태그
+
+<table 속성>아래 있는 것들</table> 테이블의 기본 형태 
+<tr>아래 있는 것들</tr>
+<th>제목제목</th>
+<td>요소요소</td>
+
+이미지 태그
+
+<img src="url" alt="불러오기 실패했을때" width="너비" height="높이"/>
+src에 http://placehold.it/너비x높이를 넣으면 레이아웃만 넣어 줍니다. 좋습니다 자주 사용하세요
+
+오디오 태그
+
+<audio src="url" preload="뭘까...?" autoplay="자동재생???" loop="루프 돔???" controls="음악 재생 도구 사용???"></audio>
+
+비디오 태그
+
+<video .....> 이미지랑 비슷함
+
+입력 양식 태그
+
+<form></form> 요즘 잘 안쓴다고 합니다.
+<input type="text" />
+<input type="password" />
+<input type="button" />
+<input type="checkbox" />
+<input type="file" />
+<input type="hidden" />
+<input type="image" />
+<input type="radio" />
+<input type="reset" />
+<input type="submit" />
+등 있지만 이거 안 이쁘므로 요즘 안쓰고 부트스트랩으로 대체한다고 합니다.
+뭔가 많지만 그냥 부트 스트랩 쓰면 이쁘게 할 수 있어요
+자기가 만들고 싶으면 만들어도 되지만 난 디자이너는 아니니까...ㅎㅎ
+
+여기는 유료지만 잘 만들어진 곳
+https://themeforest.net/item/dekora-multipurpose-responsive-prestashop-17-theme/20759876?irgwc=1&clickid=U3OSzk22BxyOW95wUx0Mo3QwUkny%3AyTU92T9Xc0&iradid=275988&irpid=1292559&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=&utm_campaign=af_impact_radius_1292559&utm_medium=affiliate&utm_source=impact_radius&gclid=EAIaIQobChMIj7_x8Iu85gIVU7eWCh0njgGIEAAYASAAEgIwLvD_BwE
+
+공간 분할 태그
+
+<dev>block 형식</dev> 밑으로 붙는다.
+<span>inline 형식</span> 옆으로 붙는다.
+
+시멘틱 구조(HTML5)
+
+<header>헤더</header>
+<nav>내비게이션</nav>
+<aside>사이드 위치</aside>
+<section>여러 중심 내용</section>
+<article>많은 글자</article>
+<footer>푸터</footer>
+
+/*******여기까지 HTML********/
+
+CSS 선택자
+CSS를 사용할 대상을 선택 해야 하므로 선택하는 방법
+선택자는 종류가 많음
+
+필요한것
+전채선택자 태그선택자 아아디선택자 클래스선택자 속성선택자(속성=값, 속성!=값)
+후손선택자 자손선택자는 세모
+
+전채선택자
+디폴트 주고 싶은거
+
+태그 선택자
+해당 태그를 변경
+
+아이디 선택자 & 클래스 선택자
+아이디는 유일하므로 그 유일한것에 변경
+#으로 아이디 표현
+클래스는 여러개의 클래스르 선택해서 변경
+.으로 클래스 표현
+
+속성 선택자
+내부 어튜리뷰트의 값을 보고 선택해서
+선택자[속성] 선택자[속성=값]...등등
+
+자손과 후손 선택자
+자손은 바로 밑 부모선택자 >후손선택자
+후손은 밑으로 전부 다 부모선택자 자손선택자 ,로 여러개 가능
+
+반응 선택자
+
+:active 클릭시
+:hover 마우스를 위에 올려놓았을때
+
+상태 선택자
+
+:focus 선택 되었을때
+:enabled 평상시
+:disabled 사용 불가
+
+구조 선택자
+
+
+:first-child 첫번째 자손
+:last-child 마지막 자손
+:nth-child(2n+1같은거) 괄호안 함수에 해당하는 것
+:nth-last-child(위와 같음) 뒤에서부터 위와 같음
+
+/*******여기까지 선택자********/
+
+CSS3 스타일 속성 기본
+
+단위
+px 픽셀
+% 현재 기준 몇%
+em 현재의 몇배
+
+색깔 
+RGB HEX HSL 있음
+
+RGB rgb(red, green, blue)
+HEX #6자리 번호
+HSL hsl(색상, 채도, 명도)
+
+url단위
+
+url(뭔가의 url);
+
+가시속성
+
+display: 키워드
+키워드는 none, block, inline, inline-block
+
+visibillity 속성
+
+visibillity : 키워드
+visible, hidden
+
+opacity 속성
+
+투명도
+opacity: 0.0~1.0사이
+
+box 속성
+
+margin padding, width, height를 가짐
