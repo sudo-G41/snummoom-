@@ -1,1 +1,2 @@
-# snummoom-
+# snummoom 겨울방학 웹 프로그래밍
+## 학습 내용 저장
