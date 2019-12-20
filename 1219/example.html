@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>example</title>
+	
+    <script>
+		//여기가 스크립트 부분입니다. script 밖에는 html...
+        // alert('Hello JavaScript..!');//알림창을 띄워줌
+    	function clicks(){
+			alert('에 클릭 했습니다.');
+		}
+		var asdf = document.getElementById("h1s");
+		asdf.onclick = clicks;
+		// asdf.onclick = function(){
+		// 		return alert('예 클릭 했습니다.');
+		// 	}
+	</script>
+</head>
+
+<body>
+	<script>
+/*
+		console.log('Hello?');//요소검사의 콘솔창에 로그를 띄워줍니다.
+		console.log("asd'f'a"+'\na"a"');
+		var message = "Hello";
+		console.log(message);
+		var integar = 1000000;
+		console.log(message+" "+integar);
+		console.log(integar);
+		console.log(10>20);
+		var t = true;
+		var f = false;
+		console.log(t||f);
+		
+		// 변수를 선언합니다. 2-26 예제
+            var list = '';
+            // 연산자를 사용합니다.
+            list += '<ul>';
+            list += '    <li>Hello</li>';
+            list += '    <li>JavaScript..!</li>';
+            list += '</ul>';
+            // 문서에 출력합니다.
+            document.body.innerHTML = list;
+		
+		if(false){
+			alert("if문 입니다. 그렇습니다.");
+		}
+		else if(true){
+			alert("else if 입니다.");
+		}
+		else{
+			alert('else 입니다.');
+		}
+		var numbers = prompt('??',"?");
+		var array = [];
+		for(var index = 0; index<5; index++)
+		{
+			var value = prompt("배열의 요소입니다.");
+			//array += value;
+			array.push(value);
+		}
+		for(var index = 0; index<array.length; index++)
+		{
+			console.log(array[index]+" "+array[array.length-1-index]);
+			continue;
+			break;
+		}
+		function multifly(x, y)
+		{
+			return x*y;
+		}
+		function odd(i)
+		{
+			if(i%2 != 0)
+			{
+				alert("홀수");
+			}
+			else
+			{
+				alert('짝수');
+			}
+		}
+		odd('a');
+		alert(multifly(3, 'a'));
+		//window.open('http://naver.com', 't',false);
+		var intid = setInterval(function(){alert('2초 지남');},2000);
+		setTimeout(function(){
+			clearInterval(intid);
+			alert("끝");
+		},10000);
+
+		var output = '';
+		output += '<ul>';
+		output += '	<li>???????????</li>';
+        output += '</ul>';
+		document.body.innerHTML = output;
+		*/
+	</script>
+	<h1 id="h1s">h1</h1>
+</body>
+</html>
